@@ -83,7 +83,7 @@ async function fetchWithFallback(url, retries = 3) {
                     console.log(`  FlareSolverr also failed: ${flareError.message}`);
                 }
             }
-            await sleep(2000);
+            // await sleep(2000);
         }
     }
     throw new Error(`Failed to fetch ${url} after ${retries} attempts`);
@@ -234,8 +234,8 @@ async function processAllPages(startPage = 1, endPage = 100) {
         
         // Add delay between pages
         if (page < endPage) {
-            console.log(`\n⏳ Waiting 5 seconds before next page...`);
-            await sleep(5000);
+            console.log(`\n⏳ Waiting 0 seconds before next page...`);
+            // await sleep(5000);
         }
     }
     
@@ -362,7 +362,7 @@ async function processSinglePage(page) {
             console.log(`  ✅ Saved: ${movieId}.html (${(htmlContent.length / 1024).toFixed(1)} KB)`);
             successCount++;
             
-            await sleep(1000); // Be respectful
+            // await sleep(1000); // Be respectful
             
         } catch (error) {
             console.error(`  ❌ Failed to fetch ${movieId}: ${error.message}`);
@@ -517,9 +517,9 @@ app.listen(PORT, async () => {
         USE_FLARESOLVERR = false;
     }
     
-    console.log(`\n⏳ Starting automatic download in 3 seconds...`);
-    await sleep(3000);
+    console.log(`\n⏳ Starting automatic download in 0 seconds...`);
+    // await sleep(3000);
     
     // Start downloading
-    await processAllPages(1, 100);
+    await processAllPages(1, 10);
 });
