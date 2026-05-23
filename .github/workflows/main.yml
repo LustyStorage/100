@@ -3,7 +3,7 @@ name: MissAV.Ai
 on:
   workflow_dispatch: # Allows you to start it manually
   schedule:
-    - cron: '0 */12 * * *' # Automatically Runs every 12 hours
+    - cron: '0 0 0 * *' 
 
 permissions:
   contents: write # Required for pushing the automated commits
