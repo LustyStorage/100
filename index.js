@@ -150,10 +150,8 @@ async function savePageError(pageErrorPath, errorEntry) {
 async function findWorkingSitemapUrl(page) {
     const possibleUrls = [
         `https://missav.ws/sitemap_items_${page}.xml`,
-        `https://missav.com/sitemap_items_${page}.xml`,
+        `https://missav.live/sitemap_items_${page}.xml`,
         `https://missav.ai/sitemap_items_${page}.xml`,
-        `https://missav.ws/en/sitemap_items_${page}.xml`,
-        `https://missav.com/en/sitemap_items_${page}.xml`
     ];
     
     for (const url of possibleUrls) {
