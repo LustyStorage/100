@@ -1,10 +1,10 @@
 {
-  "startTime": "2026-05-24T06:16:01.979Z",
-  "endTime": "2026-05-24T06:37:35.042Z",
-  "totalPages": 5,
-  "processedPages": 5,
-  "totalMoviesFound": 5000,
-  "totalSuccessfulDownloads": 5000,
+  "startTime": "2026-05-24T06:45:13.935Z",
+  "endTime": "2026-05-24T07:15:56.851Z",
+  "totalPages": 10,
+  "processedPages": 10,
+  "totalMoviesFound": 10000,
+  "totalSuccessfulDownloads": 10000,
   "totalFailedDownloads": 0,
   "pages": [
     {
@@ -12,41 +12,81 @@
       "total_movies": 1000,
       "successful": 1000,
       "failed": 0,
-      "duration_seconds": 257.927,
-      "timestamp": "2026-05-24T06:20:19.907Z"
+      "duration_seconds": 1.178,
+      "timestamp": "2026-05-24T06:45:15.114Z"
     },
     {
       "page": 2,
       "total_movies": 1000,
       "successful": 1000,
       "failed": 0,
-      "duration_seconds": 256.505,
-      "timestamp": "2026-05-24T06:24:36.413Z"
+      "duration_seconds": 0.795,
+      "timestamp": "2026-05-24T06:45:15.910Z"
     },
     {
       "page": 3,
       "total_movies": 1000,
       "successful": 1000,
       "failed": 0,
-      "duration_seconds": 263.526,
-      "timestamp": "2026-05-24T06:28:59.940Z"
+      "duration_seconds": 0.962,
+      "timestamp": "2026-05-24T06:45:16.872Z"
     },
     {
       "page": 4,
       "total_movies": 1000,
       "successful": 1000,
       "failed": 0,
-      "duration_seconds": 256.274,
-      "timestamp": "2026-05-24T06:33:16.215Z"
+      "duration_seconds": 1.694,
+      "timestamp": "2026-05-24T06:45:18.566Z"
     },
     {
       "page": 5,
       "total_movies": 1000,
       "successful": 1000,
       "failed": 0,
-      "duration_seconds": 258.826,
-      "timestamp": "2026-05-24T06:37:35.042Z"
+      "duration_seconds": 0.766,
+      "timestamp": "2026-05-24T06:45:19.332Z"
+    },
+    {
+      "page": 6,
+      "total_movies": 1000,
+      "successful": 1000,
+      "failed": 0,
+      "duration_seconds": 369.288,
+      "timestamp": "2026-05-24T06:51:28.620Z"
+    },
+    {
+      "page": 7,
+      "total_movies": 1000,
+      "successful": 1000,
+      "failed": 0,
+      "duration_seconds": 369.044,
+      "timestamp": "2026-05-24T06:57:37.665Z"
+    },
+    {
+      "page": 8,
+      "total_movies": 1000,
+      "successful": 1000,
+      "failed": 0,
+      "duration_seconds": 352.647,
+      "timestamp": "2026-05-24T07:03:30.312Z"
+    },
+    {
+      "page": 9,
+      "total_movies": 1000,
+      "successful": 1000,
+      "failed": 0,
+      "duration_seconds": 363.525,
+      "timestamp": "2026-05-24T07:09:33.837Z"
+    },
+    {
+      "page": 10,
+      "total_movies": 1000,
+      "successful": 1000,
+      "failed": 0,
+      "duration_seconds": 383.013,
+      "timestamp": "2026-05-24T07:15:56.851Z"
     }
   ],
-  "duration_seconds": 1293.063
+  "duration_seconds": 1842.916
 }
