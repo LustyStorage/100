@@ -1,0 +1,20 @@
+{
+  "startTime": "2026-05-24T05:39:05.265Z",
+  "endTime": "2026-05-24T05:39:45.989Z",
+  "totalPages": 1,
+  "processedPages": 1,
+  "totalMoviesFound": 1000,
+  "totalSuccessfulDownloads": 1000,
+  "totalFailedDownloads": 0,
+  "pages": [
+    {
+      "page": 1,
+      "total_movies": 1000,
+      "successful": 1000,
+      "failed": 0,
+      "duration_seconds": 40.723,
+      "timestamp": "2026-05-24T05:39:45.989Z"
+    }
+  ],
+  "duration_seconds": 40.724
+}
