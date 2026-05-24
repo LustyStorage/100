@@ -393,7 +393,7 @@ async function processSinglePage(page) {
         movie_ids: movieIds.slice(0, 10) // Only save first 10 to keep file small
     };
     
-    await fs.writeJson(path.join(pageFolder, '_summary.json'), pageSummary, { spaces: 2 });
+    // await fs.writeJson(path.join(pageFolder, '_summary.json'), pageSummary, { spaces: 2 });
     
     return { totalMovies: movieIds.length, successful: successCount, failed: failCount };
 }
